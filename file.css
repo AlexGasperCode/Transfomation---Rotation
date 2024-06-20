@@ -1,0 +1,35 @@
+        body {
+            background-color: gray;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+            border: 5px solid orangered;
+        }
+        /* .container:hover .cuadrado { */
+        
+        .cuadrado:hover {
+            /* transform: rotate(45deg);
+            transform: rotate(-45deg); */
+            /* transform: rotateX(-45deg);
+            transform: rotateY(-45deg); */
+            /* transform: rotateZ(-45deg); */
+            /* transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg); */
+            /* transform: rotate3d(x, y, z, rotate); */
+            /* transform: rotate3d(1, 0, 0, 45deg); */
+            /* transform: rotate3d(0, 1, 0, 45deg); */
+            transform: rotate3d(0, 0, 1, 45deg);
+        }
+        
+        .cuadrado {
+            width: 200px;
+            height: 200px;
+            background: white;
+            margin: 20px;
+            transition: .3s;
+        }
